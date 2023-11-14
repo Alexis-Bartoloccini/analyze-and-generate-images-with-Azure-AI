@@ -20,7 +20,7 @@ function App() {
   const DisplayResults = ({ result, imageUrl }) => {
     return (
       <div>
-        <h2>Resultados del Análisis</h2>
+        <h2>Resultados del Análisisss</h2>
         <p>Imagen analizada: {imageUrl}</p>
         <pre>{JSON.stringify(result, null, 2)}</pre>
       </div>
